@@ -1,0 +1,48 @@
+body {
+    color: white;
+}
+.container , .main {
+    background-color: aquamarine;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.main {
+    background-color: darkblue;
+}
+
+.drawer {
+    position: fixed;
+    width: 300px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: -300px;
+    transition: all 0.8s;
+}
+
+.openedDrawer {
+    right: 0;
+    transition: all 1s;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.bio {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.6s;
+    background-color: bisque;
+    color: black;
+}
+
+.openBio {
+    height: 20px;
+    transition: all 0.8s;
+    padding: 20px;
+} 
